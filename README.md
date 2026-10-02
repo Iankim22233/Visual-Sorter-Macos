@@ -30,7 +30,7 @@ cd SortLab
 ```bash 
 mkdir -p ~/Projects && cd ~/Downloads
 git clone https://github.com/Iankim22233/Visual-Sorter-Macos/
-cd Visual-Sorter-Macos/SortLab
+cd ~/Downloads/Visual-Sorter-Macos/SortLab
 ./build.sh
 mv SortLab.app /Applications/
 ```
