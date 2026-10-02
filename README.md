@@ -31,8 +31,6 @@ cd SortLab
 cd ~/Downloads && git clone https://github.com/Iankim22233/Visual-Sorter-Macos.git && bash "Visual-Sorter-Macos/SortLab/Install SortLab.command"
 ```
 
-`build.sh` runs `swift build -c release`, assembles `SortLab.app` next to the script, and ad-hoc signs it. Leave out `run` to only build, then open `SortLab.app` yourself.
-
 ## Using the app
 
 | Control | What it does |
