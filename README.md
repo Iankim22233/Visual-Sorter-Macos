@@ -34,6 +34,8 @@ cd ~/Downloads/Visual-Sorter-Macos/rbx/SortLab
 ./build.sh
 mv SortLab.app /Applications/
 ```
+A permission denied is normal if you dont want to build the app using xCode.
+The app should show up in applications. If you can't find it, use spotlight and search Sortlab.
 
 `build.sh` runs `swift build -c release`, assembles `SortLab.app` next to the script, and ad-hoc signs it. Leave out `run` to only build, then open `SortLab.app` yourself.
 
