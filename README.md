@@ -35,7 +35,7 @@ cd ~/Downloads/Visual-Sorter-Macos/rbx/SortLab
 mv SortLab.app /Applications/
 cd
 ```
-A permission denied is normal if you dont want to build the app using xCode.
+A permission denied is normal if you don't want to build the app using xCode.
 The app should show up in applications. If you can't find it, use spotlight and search Sortlab.
 
 `build.sh` runs `swift build -c release`, assembles `SortLab.app` next to the script, and ad-hoc signs it. Leave out `run` to only build, then open `SortLab.app` yourself.
@@ -113,17 +113,17 @@ Files are named like `003 Comb Sort.js` and are listed in filename order. The al
 
 ```
 SortLab/
-├── Package.swift
-├── build.sh                     build + bundle + sign
-├── algorithms.js                built-in algorithms (copied into the app)
-└── Sources/SortLab/
-    ├── SortLabApp.swift         app entry, main window + editor window
-    ├── ContentView.swift        canvas drawing, drag gesture, controls, tab strip
-    ├── EditorView.swift         tabbed code editor
-    ├── SortModel.swift          state, playback pacing, manual sort
-    ├── ScriptEngine.swift       JavaScriptCore bridge, step recording
-    ├── AlgorithmStore.swift     one-file-per-algorithm storage
-    └── Synth.swift              sine-blip audio engine
+ >Package.swift
+ build.sh                     build + bundle + sign
+ algorithms.js                built-in algorithms (copied into the app)
+ Sources/SortLab/
+     >SortLabApp.swift         app entry, main window + editor window
+     ContentView.swift        canvas drawing, drag gesture, controls, tab strip
+     EditorView.swift         tabbed code editor
+     SortModel.swift          state, playback pacing, manual sort
+     ScriptEngine.swift       JavaScriptCore bridge, step recording
+     AlgorithmStore.swift     one-file-per-algorithm storage
+     Synth.swift              sine audio engine
 ```
 
 ## Notes
