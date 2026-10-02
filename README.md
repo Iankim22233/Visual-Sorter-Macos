@@ -29,7 +29,7 @@ cd SortLab
 ## Install
 ```bash 
 cd ~/Downloads
-git clone https://github.com/Iankim22233/Visual-Sorter-Macos/edit/main/README.md
+git clone https://github.com/Iankim22233/Visual-Sorter-Macos/
 cd Visual-Sorter-Macos/SortLab
 ./build.sh
 rm -rf /Applications/SortLab.app
