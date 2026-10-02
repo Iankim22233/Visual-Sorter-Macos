@@ -25,4 +25,4 @@ cat > "$APP/Contents/Info.plist" <<PLIST
 PLIST
 codesign --force --sign - "$APP" >/dev/null 2>&1 || true
 echo "Built $(pwd)/$APP"
-[[ "$1" == "run" ]] && open "$APP"
+if [[ "$1" == "run" ]]; then open "$APP"; fi

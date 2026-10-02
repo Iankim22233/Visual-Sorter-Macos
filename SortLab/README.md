@@ -20,7 +20,13 @@ A macOS sorting visualizer with sound. Watch sorting algorithms work on a field 
 - **To run:** macOS 13 or later. Nothing else to install: a built `SortLab.app` is self-contained.
 - **To build from source:** Xcode / Swift toolchain (Swift 5.9+).
 
-## Build and run
+## Install (one click)
+
+Double-click **`Install SortLab.command`**. It downloads the source if needed, builds the app, copies it to `/Applications` and opens it. It needs the Swift toolchain (it offers to install the Command Line Tools if they're missing).
+
+If macOS says the file can't be opened because it's from an unidentified developer, right-click it and choose **Open** the first time. If it says it has no permission to run, run `chmod +x "Install SortLab.command"` once.
+
+## Build and run manually
 
 ```bash
 cd SortLab
