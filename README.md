@@ -33,6 +33,7 @@ git clone https://github.com/Iankim22233/Visual-Sorter-Macos/
 cd ~/Downloads/Visual-Sorter-Macos/rbx/SortLab
 ./build.sh
 mv SortLab.app /Applications/
+cd
 ```
 A permission denied is normal if you dont want to build the app using xCode.
 The app should show up in applications. If you can't find it, use spotlight and search Sortlab.
