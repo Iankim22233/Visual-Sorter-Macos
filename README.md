@@ -19,7 +19,7 @@ A macOS sorting visualizer with sound. Watch sorting algorithms work on a field 
 
 - macOS 13 or later to **run**
 - Xcode / Swift toolchain (Swift 5.9+) **to build** not **run**
-- Command Line Tools (run this command to install if you do not have it)
+- Command Line Tools to install (run this command to install if you do not have it)
 ```bash
 xcode-select --install
 ```
