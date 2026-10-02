@@ -18,8 +18,8 @@ A macOS sorting visualizer with sound. Watch sorting algorithms work on a field 
 ## Requirements
 
 - macOS 13 or later to **run**
-- Xcode / Swift toolchain (Swift 5.9+) **to build** not **run**
 - Command Line Tools to install (run this command to install if you do not have it)
+- Xcode / Swift toolchain (Swift 5.9+) for open source editing
 ```bash
 xcode-select --install
 ```
