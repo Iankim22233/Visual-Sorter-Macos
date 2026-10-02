@@ -28,16 +28,8 @@ cd SortLab
 ```
 ## Install
 ```bash 
-cd ~/Downloads
-git clone https://github.com/Iankim22233/Visual-Sorter-Macos/
-cd Visual-Sorter-Macos/SortLab
-./build.sh
-rm -rf /Applications/SortLab.app
-mv SortLab.app /Applications/
-open /Applications/SortLab.app
+cd ~/Downloads && git clone https://github.com/Iankim22233/Visual-Sorter-Macos.git && bash "Visual-Sorter-Macos/SortLab/Install SortLab.command"
 ```
-A permission denied is normal if you don't want to build the app using xCode.
-The app should show up in applications. If you can't find it, use spotlight and search Sortlab.
 
 `build.sh` runs `swift build -c release`, assembles `SortLab.app` next to the script, and ad-hoc signs it. Leave out `run` to only build, then open `SortLab.app` yourself.
 
