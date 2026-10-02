@@ -26,6 +26,12 @@ A macOS sorting visualizer with sound. Watch sorting algorithms work on a field 
 cd SortLab
 ./build.sh run
 ```
+## Install
+`mkdir -p ~/Projects && cd ~/Projects
+git clone https://github.com/Iankim22233/Visual-Sorter-Macos/
+cd Visual-Sorter-Macos/SortLab
+./build.sh
+mv SortLab.app /Applications/`
 
 `build.sh` runs `swift build -c release`, assembles `SortLab.app` next to the script, and ad-hoc signs it. Leave out `run` to only build, then open `SortLab.app` yourself.
 
