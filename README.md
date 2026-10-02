@@ -28,12 +28,13 @@ cd SortLab
 ```
 ## Install
 ```bash 
-mkdir -p ~/Projects && cd ~/Downloads
-git clone https://github.com/Iankim22233/Visual-Sorter-Macos/
-cd ~/Downloads/Visual-Sorter-Macos/SortLab
+cd ~/Downloads
+git clone https://github.com/Iankim22233/Visual-Sorter-Macos/edit/main/README.md
+cd Visual-Sorter-Macos/SortLab
 ./build.sh
+rm -rf /Applications/SortLab.app
 mv SortLab.app /Applications/
-cd
+open /Applications/SortLab.app
 ```
 A permission denied is normal if you don't want to build the app using xCode.
 The app should show up in applications. If you can't find it, use spotlight and search Sortlab.
