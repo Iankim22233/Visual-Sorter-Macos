@@ -28,7 +28,7 @@ cd SortLab
 ```
 ## Install
 ```bash 
-cd ~/Downloads && git clone https://github.com/Iankim22233/Visual-Sorter-Macos.git && bash "Visual-Sorter-Macos/SortLab/Install SortLab.command"
+if xcode-select -p >/dev/null 2>&1; then cd ~/Downloads && rm -rf Visual-Sorter-Macos && git clone https://github.com/Iankim22233/Visual-Sorter-Macos.git && bash "Visual-Sorter-Macos/SortLab/Install SortLab.command"; else echo "SortLab needs Apple's Command Line Tools. Click Install in the window that just opened, wait for it to finish, then run this command again."; xcode-select --install; fi
 ```
 
 ## Using the app
