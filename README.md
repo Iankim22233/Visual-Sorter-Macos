@@ -17,7 +17,7 @@ A macOS sorting visualizer with sound. Watch sorting algorithms work on a field 
 
 ## Requirements
 
-- macOS 13 or later
+- macOS 13 or later to **run**
 - Xcode / Swift toolchain (Swift 5.9+) **to build** not **run**
 
 ## Build and run
